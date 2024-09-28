@@ -16,8 +16,13 @@ public class Appointment {
     private ArrayList<PatientIllness> patientIllnesses;
     
     /**
-     * 
-     */ 
+     * Creates an appointment with a doctor at a specific office on a given date and time slot.
+     *
+     * @param d        The doctor assigned to the appointment.
+     * @param o        The office where the appointment will take place.
+     * @param date     The date of the appointment.
+     * @param timeSlot The time slot for the appointment.
+     */
     public Appointment(Doctor d, Office o, LocalDate date, int timeSlot){
         
         this.doctor = d;

@@ -15,6 +15,8 @@ public class Patient {
     
     /**
      * 
+     * adds apointment to the list
+     * 
      */ 
     public void addAppointment(Appointment a){
         appointments.add(a);
