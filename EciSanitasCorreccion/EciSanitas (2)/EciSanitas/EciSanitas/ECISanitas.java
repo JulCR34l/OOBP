@@ -8,7 +8,7 @@ import java.time.*;
 * Invariants:
 * 1. The patient and hospital must be registered.
 * 2. There must be an available doctor and room for the requested specialty and date.
-* 3. 
+* 3. The patient must not already have an appointment at the same time.
 *  
 */
 public class ECISanitas {
